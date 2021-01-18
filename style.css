@@ -5,5 +5,67 @@
 }
 
 body{
+    background-image: url('./background.jpg');
     font-family: Roboto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+.big-text{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.input-container{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#occasion{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    height: 40px;
+    width: 237px;
+}
+
+#date, #time{
+    margin-bottom: 20px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.submit{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 0;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+}
+
+.timer-c{
+    margin: 0 25px;
+    text-align: center;
+}
+
+.timer-c span{
+    font-size: 40px;
 }
